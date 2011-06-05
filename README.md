@@ -34,11 +34,12 @@ thanks for their great works!
         });
         socket.on('message', function(obj){
           var msg = document.createElement('p');
-          if ('message' in obj) 
+          if ('message' in obj) {
             msg.innerHTML = '<b>[' + obj.message[2] + ']'
                                       + esc(obj.message[0]) + ':</b> ' 
                                       + esc(obj.message[1]);
-          document.getElementById('chat').appendChild(message);
+            document.getElementById('chat').appendChild(message);
+          }
         });
     </script> 
     </head>
