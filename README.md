@@ -6,10 +6,13 @@ It makes my Rails app having real-time communication capability.
 ##Dependencies:
 *go-socket.io https://github.com/madari/go-socket.io
 *redis.go https://github.com/hoisie/redis.go
+
 thanks for their great works!
 
 ##How it works
+
 1. Use (Socket.IO)[https://github.com/LearnBoost/Socket.IO] on your client side like this:
+
 ###client side code:
 
 <!DOCTYPE html>
