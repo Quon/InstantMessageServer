@@ -12,7 +12,7 @@ thanks for their great works!
 
 ##How it works
 
-### Use (Socket.IO)[https://github.com/LearnBoost/Socket.IO] on your client side like this:
+### Use [Socket.IO](https://github.com/LearnBoost/Socket.IO) on your client side like this:
 
     <!DOCTYPE html>
     <html>
@@ -47,7 +47,7 @@ thanks for their great works!
     </body>
     </html>
 
-### Run a Redis Server on port 6379.Get from [here](http://redis.io)
+### Run a Redis Server on port 6379.Get from [here](http://redis.io).
 
 ### Compile and run InstantMessageServer
 
