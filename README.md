@@ -4,8 +4,9 @@ Just a small app in my work.
 It makes my Rails app having real-time communication capability.
 
 ##Dependencies:
-*go-socket.io https://github.com/madari/go-socket.io
-*redis.go https://github.com/hoisie/redis.go
+
+* go-socket.io https://github.com/madari/go-socket.io
+* redis.go https://github.com/hoisie/redis.go
 
 thanks for their great works!
 
