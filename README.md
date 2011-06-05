@@ -12,7 +12,7 @@ thanks for their great works!
 
 ##How it works
 
-1. Use (Socket.IO)[https://github.com/LearnBoost/Socket.IO] on your client side like this:
+### Use (Socket.IO)[https://github.com/LearnBoost/Socket.IO] on your client side like this:
 
     <!DOCTYPE html>
     <html>
@@ -47,18 +47,18 @@ thanks for their great works!
     </body>
     </html>
 
-2. Run a Redis Server on port 6379.Get from [here](http://redis.io)
+### Run a Redis Server on port 6379.Get from [here](http://redis.io)
 
-3. Compile and run InstantMessageServer
+### Compile and run InstantMessageServer
 
     $ git clone git://github.com/Quon/InstantMessageServer.git
     $ cd InstantMessageServer/src
     $ make
     $ ./InstantMessageServer
     
-4. Open the web page  in step 1 and make sure the pages url contains "127.0.0.1"(config.Origins = []string{"127.0.0.1"})
+### Open the web page  in step 1 and make sure the pages url contains "127.0.0.1"(config.Origins = []string{"127.0.0.1"})
     
-5. Use a redis client such as redis-cli and test following command:
+### Use a redis client such as redis-cli and test following command:
 
     $ redis-cli
     redis> publish "user:1:general" "{\"message\":[\"User 1\",\"Hello\"]}"
