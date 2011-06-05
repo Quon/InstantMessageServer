@@ -14,8 +14,6 @@ thanks for their great works!
 
 1. Use (Socket.IO)[https://github.com/LearnBoost/Socket.IO] on your client side like this:
 
-###client side code:
-
     <!DOCTYPE html>
     <html>
     <head>
@@ -61,6 +59,7 @@ thanks for their great works!
 4. Open the web page  in step 1 and make sure the pages url contains "127.0.0.1"(config.Origins = []string{"127.0.0.1"})
     
 5. Use a redis client such as redis-cli and test following command:
+
     $ redis-cli
     redis> publish "user:1:general" "{\"message\":[\"User 1\",\"Hello\"]}"
     (integer) 1
