@@ -24,7 +24,7 @@ var RUsers map[*socketio.Conn] string
 func initSocketIO() {
     log.Println("init socketio server")
     config := socketio.DefaultConfig
-	config.Origins = []string{"127.0.0.1:3000"}
+	config.Origins = []string{"127.0.0.1"}
 	SocketIO := socketio.NewSocketIO(&config)
 
     go func() {

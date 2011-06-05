@@ -58,7 +58,7 @@ thanks for their great works!
     $ make
     $ ./InstantMessageServer
     
-4. Open the web page  in step 1 and make show the pages url contains "127.0.0.1"
+4. Open the web page  in step 1 and make sure the pages url contains "127.0.0.1"(config.Origins = []string{"127.0.0.1"})
     
 5. Use a redis client such as redis-cli and test following command:
     $ redis-cli
