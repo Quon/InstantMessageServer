@@ -69,7 +69,7 @@ Then you will see the message on the web page.
 
 (The MIT License)
 
-Copyright (c) 2010 Quon Lu &lt;quon@quonlu.com&gt;
+Copyright (c) 2011 Quon Lu &lt;quon@quonlu.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
